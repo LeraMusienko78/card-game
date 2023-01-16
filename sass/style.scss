@@ -31,29 +31,27 @@ body {
     background-image: url('../public/images/background-1.png');
     height: 840px;
     background-size: cover;
-}
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding: $padding-l;
-    margin: 0px 128px - $padding-l;
-    
-}
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: $padding-l;
+        margin: 0px 128px - $padding-l;
 
-.logo {
-    font-family: $inter-ff;
-    font-size: $fs-m;
-}
+        .logo {
+            font-family: $inter-ff;
+            font-size: $fs-m;
+        }
 
-.nav {
-    font-size: $fs-s;
-    font-family: $kaiseiOpti-ff;
-}
-
-.nav-link:not(.nav-link:last-child) {
-
-    padding: 0px $padding-nav;
+        .nav {
+            font-size: $fs-s;
+            font-family: $kaiseiOpti-ff;
+        
+            &-link:not(.nav-link:last-child) {
+                padding: 0px $padding-nav;
+            }
+        }
+    }
 }
 
 .banner {
